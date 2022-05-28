@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: block;
+    width: 100%;
+    background: #f300f3;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    clear: both;
+    overflow: hidden;
+ 
+}
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar ul li  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 30px;
+    color: #fff;
+}
+
+p{
+    font-size: 20px;
+    background: #eeee;
+    text-align: justify;
+}
+.body{
+    width: 1160px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.btn{
+    background-color: #f300f3;
+    padding: 20px 60px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: center;
+    cursor: pointer;
+
+}
+.free_space{
+    height: 20000px;
+}
+.one{
+    background-color: green;
+}
+.two{
+    background-color: orange;
+}
+.three{
+    background-color: yellow;
+}
+.four{
+    background-color: black;
+}
+.five{
+    background-color: palegreen;
+}
+.six{
+    background-color: salmon;
+}
+.seven{
+    background-color: skyblue;
+}
+.eight{
+    background-color:fuchsia;
+}
+.nine{
+    background-color: violet;
+}
+
+
+.change_color{
+    background-color: black;
+}
+.change_color_one{
+    background-color: green;
+}
+.change_color_two{
+    background-color: orange;
+}
+.change_color_three{
+    background-color: yellow;
+}
+.change_color_four{
+    background-color: black;
+}
+.change_color_five{
+    background-color: palegreen;
+}
+.change_color_six{
+    background-color: salmon;
+}
+.change_color_seven{
+    background-color: skyblue;
+}
+.change_color_eight{
+    background-color: fuchsia
+}
+.change_color_nine{
+    background-color: violet
+}
